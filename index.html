@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love App</title>
+  <link rel="stylesheet" href="iphone_styles.css">
+  <script defer src="girlfriend_app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Title Section -->
+    <div class="title-section">
+      <h1>Welcome to our Love App Sam ❤️</h1>
+      <p>A special app just for you! I didn't know what to get you for xmas but I know how to code. Tap the buttons below to explore random images, poems, comments, my christmas love letter and more, Enjoy the surprise! XOXO 🌹
+    </p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Buttons Section -->
+      <div class="buttons-section">
+        <button onclick="showRandomImage()">🎨 Change Picture of Us</button>
+        <button onclick="showLetter()">✉️ Show Love Letter</button>
+        <button onclick="showRandomComment()">💬 Random Love Comments</button>
+        <button onclick="showRandomPoem()">📜 Random Love Poems</button>
+        <button onclick="startLoveStory()">💖 Show Our Love Story</button>
+        <button onclick="showRandomCatPicture()">🐾 Pictures of Willie & Others</button>
+        <button onclick="runFlowerAnimation()">🌸 Flower Animation</button>
+      </div>
+
+      <!-- Image Section -->
+      <div class="image-section">
+        <div id="imageBox">
+          <img id="profile" src="assets/us/us.png" alt="Us" class="profile-picture">
+        </div>
+        <!-- Our Playlist Button -->
+        <button onclick="window.open('https://open.spotify.com/playlist/7s3M896HPykvknNU91CE7M?si=088d660f351b4f21', '_blank')" class="playlist-button">🎶 Our Playlist</button>  
+      </div>
+    </div>
+    <div class="close-app">
+        <button onclick="closeApp()">✘ Close App</button>
+    </div>
+
+  <!-- Popup Modal -->
+<div id="popupModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <div id="popupContent">
+      <!-- Dynamic content like images, text, etc., will appear here -->
+    </div>
+    <button class="close-popup-btn" onclick="closeModal()">✘ Close</button>
+  </div>
+</div>
+</body>
+</html>
