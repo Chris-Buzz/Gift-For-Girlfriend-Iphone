@@ -85,7 +85,7 @@ button:active {
 
 #imageBox {
   width: 95%;
-  height: 330px; 
+  height: 310px; 
   background: rgba(255, 182, 193, 0.5);
   border-radius: 10px;
   display: flex;
