@@ -31,14 +31,14 @@ body {
 
 .title-section h1 {
   color: #ff69b4;
-  font-size: 25px;
+  font-size: 22px;
   margin: 0;
 }
 
 .title-section p {
   color: #721f72;
   margin-top: 5px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .main-content {
@@ -85,7 +85,7 @@ button:active {
 
 #imageBox {
   width: 95%;
-  height: 320px; 
+  height: 350px; 
   background: rgba(255, 182, 193, 0.5);
   border-radius: 10px;
   display: flex;
@@ -188,7 +188,7 @@ button:active {
 #storyContent img {
   max-width: 100%;
   height: auto;
-  max-height: 420px;
+  max-height: 390px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
