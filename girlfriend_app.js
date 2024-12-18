@@ -1,21 +1,22 @@
 const images = [
-  'assets/us/us.png','assets/us/us2.png','assets/us/us3.jpg','assets/us/us4.jpg','assets/us/us5.jpg','assets/us/us6.jpg','assets/us/us7.jpg','assets/us/us8.jpg','assets/us/us9.jpg',
-  'assets/us/us10.jpg','assets/us/us11.JPG', 'assets/us/us12.jpg','assets/us/us13.jpg','assets/us/us14.jpg','assets/us/us15.jpg','assets/us/us16.jpg','assets/us/us17.jpg','assets/us/us18.jpg',
-  'assets/us/us19.jpg','assets/us/us20.jpg','assets/us/us21.jpg','assets/us/us22.jpg','assets/us/us23.jpg','assets/us/us24.jpg','assets/us/us25.jpg','assets/us/us26.jpg','assets/us/us27.jpg',
-  'assets/us/us28.jpg','assets/us/us29.jpg','assets/us/us30.jpg','assets/us/us31.jpg','assets/us/us32.jpg','assets/us/us33.jpg','assets/us/us34.jpg','assets/us/us35.jpg','assets/us/us36.jpg',
+  'assets/us/us.png','assets/us/us2.png','assets/us/us3.JPG','assets/us/us4.JPG','assets/us/us5.JPG','assets/us/us6.JPG','assets/us/us7.JPG','assets/us/us8.JPG','assets/us/us9.JPG',
+  'assets/us/us10.JPG','assets/us/us11.JPG', 'assets/us/us12.JPG','assets/us/us13.JPG','assets/us/us14.JPG','assets/us/us15.JPG','assets/us/us16.JPG','assets/us/us17.JPG','assets/us/us18.JPG',
+  'assets/us/us19.JPG','assets/us/us20.JPG','assets/us/us21.JPG','assets/us/us22.JPG','assets/us/us23.JPG','assets/us/us24.JPG','assets/us/us25.JPG','assets/us/us26.JPG','assets/us/us27.JPG',
+  'assets/us/us28.JPG','assets/us/us29.JPG','assets/us/us30.JPG','assets/us/us31.JPG','assets/us/us32.JPG','assets/us/us33.JPG','assets/us/us34.JPG','assets/us/us35.JPG','assets/us/us36.jpg',
   'assets/us/us37.jpg','assets/us/us38.jpg','assets/us/us39.jpg','assets/us/us40.jpg','assets/us/us41.jpg','assets/us/us42.jpg','assets/us/us43.jpg','assets/us/us44.jpg','assets/us/us45.jpg',
-  'assets/us/us46.jpg','assets/us/us47.jpg','assets/us/us50.jpg','assets/us/us51.jpg','assets/us/us52.jpg','assets/us/us53.jpg','assets/us/us54.jpg',
-  'assets/us/us55.jpg', 'assets/us/us56.jpg','assets/us/us57.jpg','assets/us/us59.jpg','assets/us/us60.jpg','assets/us/us61.jpg','assets/us/us62.jpg','assets/us/us63.jpg',
-  'assets/us/us64.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg','assets/us/us70.JPG', 'assets/us/us71.JPG','assets/us/us72.JPG',
+  'assets/us/us46.jpg','assets/us/us47.jpg','assets/us/us48.jpg','assets/us/us49.jpg','assets/us/us50.jpg','assets/us/us51.jpg','assets/us/us52.jpg','assets/us/us53.jpg','assets/us/us54.jpg',
+  'assets/us/us55.jpg', 'assets/us/us56.jpg','assets/us/us57.jpg','assets/us/us58.jpg','assets/us/us59.jpg','assets/us/us60.jpg','assets/us/us61.jpg','assets/us/us62.jpg','assets/us/us63.jpg',
+  'assets/us/us64.jpg','assets/us/us65.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg','assets/us/us70.JPG', 'assets/us/us71.JPG','assets/us/us72.JPG',
   'assets/us/us73.jpeg','assets/us/us74.jpeg','assets/us/us75.jpeg','assets/us/us76.jpeg','assets/us/us77.jpeg','assets/us/us78.jpg',
 ];
 
 const poems = [
-  "To be written",
+  "to be written ",
+ 
 ];
 
 const comments = [
-  "You are my favorite person","Babe you are so gorgeous ♡", "Your eyes light up my world ♡","I get lost in your eyes ♡", "You are so pretty ♡","I love you so much ♡","I love you to infinity and beyond ♡",
+  "You are my favorite person ♡","Babe you are so gorgeous ♡", "Your eyes light up my world ♡","I get lost in your eyes ♡", "You are so pretty ♡","I love you so much ♡","I love you to infinity and beyond ♡",
   "I am thinking of you right now ♡","Everytime I see you, you make me smile ♡", "You make me so happy ♡","I absolutely love cuddling with you ♡","You make me feel so safe and secure ♡","Your back rubs are heavenly ♡",
   "You are the most beautiful girl in the world ♡", "Are you a model? Well you should be ♡","You are my girl ♡", "You know who thinks your beautiful …. Me ♡", "You are the strongest person I know ♡", "I think your an angel from heaven ♡",
   "I dreamed about you last night ♡", "You are the best girlfriend in the world ♡", "I love your laugh ♡", "You are my sunshine on a cloudy day ♡", "Your smile melts my heart ♡", "You are my greatest treasure ♡", "I’m so lucky to have you in my life ♡",
@@ -30,34 +31,35 @@ const comments = [
 ];
 const catPictures = [
   'assets/animals/pet1.JPEG','assets/animals/pet2.JPEG','assets/animals/pet3.JPEG','assets/animals/pet4.JPEG','assets/animals/pet5.JPEG','assets/animals/pet6.JPEG',
-  'assets/animals/pet7.jpg','assets/animals/pet8.jpg','assets/animals/pet9.jpg','assets/animals/pet10.jpg','assets/animals/pet11.jpg','assets/animals/pet12.jpg',
-  'assets/animals/pet13.jpg','assets/animals/pet14.jpg','assets/animals/pet15.jpg','assets/animals/pet16.jpg','assets/animals/pet17.jpg','assets/animals/pet18.jpg',
-  'assets/animals/pet19.jpg','assets/animals/pet20.jpg','assets/animals/pet21.jpg','assets/animals/pet22.jpg','assets/animals/pet23.jpg','assets/animals/pet24.jpg',
+  'assets/animals/pet7.JPG','assets/animals/pet8.JPG','assets/animals/pet9.JPG','assets/animals/pet10.JPG','assets/animals/pet11.JPG','assets/animals/pet12.JPG',
+  'assets/animals/pet13.JPG','assets/animals/pet14.JPG','assets/animals/pet15.JPG','assets/animals/pet16.JPG','assets/animals/pet17.JPG','assets/animals/pet18.JPG',
+  'assets/animals/pet19.JPG','assets/animals/pet20.JPG','assets/animals/pet21.JPG','assets/animals/pet22.JPG','assets/animals/pet23.jpg','assets/animals/pet24.jpg',
   'assets/animals/pet25.jpg','assets/animals/pet26.jpg','assets/animals/pet27.jpg','assets/animals/pet28.jpg','assets/animals/pet29.jpg','assets/animals/pet30.jpg',
   'assets/animals/pet31.jpg','assets/animals/pet32.jpg','assets/animals/pet33.jpg','assets/animals/pet34.jpg','assets/animals/pet35.jpg','assets/animals/pet36.jpg',
   'assets/animals/pet37.jpg','assets/animals/pet38.jpg','assets/animals/pet39.jpg','assets/animals/pet40.jpg','assets/animals/pet41.jpg','assets/animals/pet42.jpg',
   'assets/animals/pet43.jpg','assets/animals/pet44.jpg','assets/animals/pet45.jpg','assets/animals/pet46.jpg','assets/animals/pet47.jpg','assets/animals/pet48.jpg',
   'assets/animals/pet49.jpg','assets/animals/pet50.jpg','assets/animals/pet51.jpg','assets/animals/pet52.jpg','assets/animals/pet53.jpg','assets/animals/pet54.jpg',
   'assets/animals/pet55.jpg','assets/animals/pet56.jpg','assets/animals/pet57.jpg','assets/animals/pet58.jpg','assets/animals/pet59.jpg','assets/animals/pet60.jpg',
-  'assets/animals/pet61.jpg','assets/animals/pet62.jpg','assets/animals/pet51.jpg','assets/animals/pet52.jpg','assets/animals/pet47.jpg','assets/animals/pet48.jpg',
+  'assets/animals/pet61.jpg','assets/animals/pet62.jpg','assets/animals/pet63.jpg','assets/animals/pet64.jpg','assets/animals/pet65.jpg','assets/animals/pet66.jpg',
+  'assets/animals/pet67.jpg','assets/animals/pet68.jpg','assets/animals/pet69.jpg','assets/animals/pet70.jpg','assets/animals/pet71.jpg','assets/animals/pet72.jpg',
 ];
 
 const loveStoryPictures = [
-  { src: 'assets/Story/story1.jpg', caption: 'April: The first picture that I have of us together. I know it is a random picture, but from the beginning I always loved when you put your head on my shoulder. ♡' },
+  { src: 'assets/Story/story1.JPG', caption: 'April: The first picture that I have of us together. I know it is a random picture, but from the beginning I always loved when you put your head on my shoulder. ♡' },
   { src: 'assets/Story/story2.png', caption: 'April: Sigfest: Our first real party together. I remember how much fun we had. You looked so beautiful. ♡' },
-  { src: 'assets/Story/story3.jpg', caption: "May: This is when we began long distance. It tested us and while it wasn't fun it showed me how much we truly loved eachother and how locked in we were. ♡" },
+  { src: 'assets/Story/story3.JPG', caption: "May: This is when we began long distance. It tested us and while it wasn't fun it showed me how much we truly loved eachother and how locked in we were. ♡" },
   { src: 'assets/Story/story4.jpg', caption: 'June: Still in long distance but we actually saw each other a lot this month. Whether it was you coming to visit me or meet me and my family for that polo match. Btw you looked so pretty at that. ♡' },
   { src: 'assets/Story/story5.jpg', caption: 'June: The Trip: When you came on my family vacation to Lake George and Vermont to celebrate my bday. I had so much fun and I miss these 5 days so much. This once again showed me just how special you were. Remember how good that food in Vermont was and how we slept in a closet and a basement.  ♡' },
   { src: 'assets/Story/story6.jpg', caption: 'July: This month was truly long distance, however we still managed to facetime everynight and see each other once in a while, making the times we saw each other just that much more special. ♡' },
   { src: 'assets/Story/story7.jpg', caption: 'August: Another long distance month but we went to LBI with all of our friends. That trip was so much fun and I loved being able to sleep with you for multiple days at a time. ♡' },
-  { src: 'assets/Story/story8.jpg', caption: 'September: We went back to school! Now we were able to see each other everyday and spend each night in the same bed. We also went out together, went to my brothers for a weekend where we painted. This month was our introduction to being back at school with our friends and being together everyday. ♡' },
+  { src: 'assets/Story/story8.JPG', caption: 'September: We went back to school! Now we were able to see each other everyday and spend each night in the same bed. We also went out together, went to my brothers for a weekend where we painted. This month was our introduction to being back at school with our friends and being together everyday. ♡' },
   { src: 'assets/Story/story9.png', caption: 'October: Another month of spending everyday with you. We got to experience the Northern Lights together which was so cool an I am so happy I got to see them with you. They were not as pretty as you though. ♡' },
-  { src: 'assets/Story/story10.jpg', caption: 'October: BIRTHDAY GIRL!: October 18th we celebrated your birthday. You looked so pretty and the food was so good. I was really nervous to give you your gift but I was so happy you liked it. ♡' },
-  { src: 'assets/Story/story11.jpg', caption: "Novemeber: Honestly, not much happened in November, other than us getting closer and spending each day together, and going to your house for your brothers bday which I had a lot of fun doing. That's the best thing though, spending time with the most beautiful girl in the world. ♡" },
-  { src: 'assets/Story/story12.jpg', caption: "Decemeber: And now we are getting ready to spend our first Christmas together. We have grown so much as a couple and I am so proud of us. Each and everyday I only think we get stronger and more locked in together. I can't wait to spend this holdiay season with you and give you this gift. I think you will cry but time will only tell. I love you gorgeous, can't wait to make it to 1 year with you. ♡" },
+  { src: 'assets/Story/story10.JPG', caption: 'October: BIRTHDAY GIRL!: October 18th we celebrated your birthday. You looked so pretty and the food was so good. I was really nervous to give you your gift but I was so happy you liked it. ♡' },
+  { src: 'assets/Story/story11.JPG', caption: "Novemeber: Honestly, not much happened in November, other than us getting closer and spending each day together, and going to your house for your brothers bday which I had a lot of fun doing. That's the best thing though, spending time with the most beautiful girl in the world. ♡" },
+  { src: 'assets/Story/story12.JPG', caption: "Decemeber: And now we are getting ready to spend our first Christmas together. We have grown so much as a couple and I am so proud of us. Each and everyday I only think we get stronger and more locked in together. I can't wait to spend this holdiay season with you and give you this gift. I think you will cry but time will only tell. I love you gorgeous, can't wait to make it to 1 year with you. ♡" },
 ];
 
-const letter = "To be written. ❤️";
+const letter = "To be written❤️";
 
 function openModal(content) {
   const popupContent = document.getElementById('popupContent');
@@ -69,17 +71,42 @@ function closeModal() {
   document.getElementById('popupModal').style.display = 'none';
 }
 
+function showImageInModal(imageSrc) {
+  const popupContent = `
+    <div id="modal-content">
+      <img src="${imageSrc}" alt="Larger Image" style="width: 100%; height: auto;">
+      <div class="navigation-buttons">
+      </div>
+    </div>
+  `;
+  openModal(popupContent);
+}
+
+const imageElement = document.getElementById('profile');
+imageElement.src = 'assets/us/us.png';
+
+imageElement.onclick = function() {
+  showImageInModal('assets/us/us.png');
+};
+
 let lastRandomImage = null;
 function showRandomImage() {
   let randomImage;
-  do{
+  do {
     randomImage = images[Math.floor(Math.random() * images.length)];
-    console.log(randomImage)
-  }while (randomImage === lastRandomImage);
+    console.log(randomImage);
+  } while (randomImage === lastRandomImage);
   lastRandomImage = randomImage;
+
+
   const imageElement = document.getElementById('profile');
   imageElement.src = randomImage;
+
+  imageElement.onclick = function() {
+    showImageInModal(randomImage);
+  };
 }
+
 
 let lastPoem = null;
 function showRandomPoem() {
@@ -132,7 +159,7 @@ function runFlowerAnimation() {
       src="assets/FlowerAnimation/index.html" 
       frameborder="0" 
       
-      style="width: 100%; height: 300px; border-radius: 10px;">
+      style="width: 100%; height: 600px; border-radius: 10px;">
     </iframe>
   `;
   document.getElementById('popupModal').style.display = 'flex';
@@ -186,6 +213,7 @@ function nextLoveStory() {
     loveStoryIndex = (loveStoryIndex + 1) % loveStoryPictures.length; // Loop back to the start
     updateLoveStoryModal();
   }
+  
 }
 
 function prevLoveStory() {
