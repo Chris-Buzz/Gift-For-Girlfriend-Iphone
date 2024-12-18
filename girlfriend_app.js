@@ -1,5 +1,3 @@
-window.open('', '_self');
-
 const images = [
   'assets/us/us.png','assets/us/us2.png','assets/us/us3.JPG','assets/us/us4.JPG','assets/us/us5.JPG','assets/us/us6.JPG','assets/us/us7.JPG','assets/us/us8.JPG','assets/us/us9.JPG',
   'assets/us/us10.JPG','assets/us/us11.JPG', 'assets/us/us12.JPG','assets/us/us13.JPG','assets/us/us14.JPG','assets/us/us15.JPG','assets/us/us16.JPG','assets/us/us17.JPG','assets/us/us18.JPG',
@@ -230,6 +228,7 @@ function closeModal() {
 }
 function closeApp() {
 if (confirm("Are you sure you want to close the app?")) {
+  window.open('', '_self');
   window.close(); 
 }
 }
