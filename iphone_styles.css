@@ -178,7 +178,7 @@ button:active {
 
 .special-caption {
   font-family: 'Cochin', 'Georgia', serif; 
-  font-size: 16px;
+  font-size: 14px;
   color: #800080;
   margin-top: 15px;
   padding: 0 10px;
@@ -195,7 +195,7 @@ button:active {
 }
 
 #captionArea {
-  font-size: 14px; 
+  font-size: 12px; 
   color: #800080;
   margin-top: 10px; 
   padding: 10px; 
