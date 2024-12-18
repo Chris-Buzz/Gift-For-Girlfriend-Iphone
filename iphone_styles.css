@@ -164,7 +164,7 @@ button:active {
   box-sizing: border-box;
 }
 #popupContent {
-  font-size: 14px;
+  font-size: 16px;
   color: #800080;  
 }
 #storyContent {
@@ -177,7 +177,7 @@ button:active {
 
 .special-caption {
   font-family: 'Cochin', 'Georgia', serif; 
-  font-size: 14px;
+  font-size: 16px;
   color: #800080;
   margin-top: 15px;
   padding: 0 10px;
