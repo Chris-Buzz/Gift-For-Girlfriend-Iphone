@@ -159,7 +159,7 @@ function runFlowerAnimation() {
       src="assets/FlowerAnimation/index.html" 
       frameborder="0" 
       
-      style="width: 100%; height: 600px; border-radius: 10px;">
+      style="width: 100%; height: 350px; border-radius: 10px;">
     </iframe>
   `;
   document.getElementById('popupModal').style.display = 'flex';
@@ -204,13 +204,13 @@ function updateLoveStoryModal() {
 }
 
 function startLoveStory() {
-  loveStoryIndex = 0; // Start from the first story image
+  loveStoryIndex = 0; 
   updateLoveStoryModal();
 }
 
 function nextLoveStory() {
   if (loveStoryIndex != 11){
-    loveStoryIndex = (loveStoryIndex + 1) % loveStoryPictures.length; // Loop back to the start
+    loveStoryIndex = (loveStoryIndex + 1) % loveStoryPictures.length; 
     updateLoveStoryModal();
   }
   
@@ -218,7 +218,7 @@ function nextLoveStory() {
 
 function prevLoveStory() {
   if (loveStoryIndex != 0){
-    loveStoryIndex = (loveStoryIndex - 1 + loveStoryPictures.length) % loveStoryPictures.length; // Loop back to the end
+    loveStoryIndex = (loveStoryIndex - 1 + loveStoryPictures.length) % loveStoryPictures.length; 
     updateLoveStoryModal();
   }
 }
@@ -227,7 +227,6 @@ function closeModal() {
   document.getElementById('popupModal').style.display = 'none';
 }
 function closeApp() {
-// Simulates app exit (can close browser tab or window)
 if (confirm("Are you sure you want to close the app?")) {
   window.close(); 
 }
