@@ -74,7 +74,7 @@ function closeModal() {
 function showImageInModal(imageSrc) {
   const popupContent = `
     <div id="modal-content">
-      <img src="${imageSrc}" alt="Larger Image" style="width: 100%; height: auto;">
+      <img src="${imageSrc}" alt="Larger Image" style="width: 100%; height: auto; border-radius: 15px;">
       <div class="navigation-buttons">
       </div>
     </div>
@@ -191,15 +191,15 @@ function updateLoveStoryModal() {
   const prevButton = loveStoryIndex === 0 ? '' : `<button class="arrow-btn" onclick="prevLoveStory()">⇦ Previous</button>`;
   const nextButton = loveStoryIndex === 11 ? '' : `<button class="arrow-btn" onclick="nextLoveStory()">⇨ Next</button>`;
   const popupContent = `
-    <div id="storyContent">
-    <img src="${storyPicture.src}" alt="Love Story">
+    <div id="storyContent" style="overflow: hidden; border-radius: 15px;">
+    <img src="${storyPicture.src}" alt="Love Story" style="width: 100%; height: auto; border-radius: 15px;">
       <div id="captionArea">${storyPicture.caption}</div>
       <div class="navigation-buttons">
          ${prevButton}
-        ${nextButton}
-      </div>
+         ${nextButton}
     </div>
-  `;
+  </div>
+`;
   openModal(popupContent);
 }
 
