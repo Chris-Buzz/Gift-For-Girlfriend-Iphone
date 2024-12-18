@@ -159,7 +159,7 @@ function runFlowerAnimation() {
       src="assets/FlowerAnimation/index.html" 
       frameborder="0" 
       
-      style="width: 100%; height: 350px; border-radius: 10px;">
+      style="width: 100%; height: 320px; border-radius: 10px;">
     </iframe>
   `;
   document.getElementById('popupModal').style.display = 'flex';
