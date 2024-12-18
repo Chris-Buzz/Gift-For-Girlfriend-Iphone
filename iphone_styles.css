@@ -200,7 +200,7 @@ button:active {
   padding: 10px; 
   background-color: rgba(250, 226, 234, 0.95); 
   border: 2px solid #fab1d5; 
-  border-radius: 8px; 
+  border-radius: 20px; 
   display: inline-block; 
   max-width: 300px; 
   word-wrap: break-word; 
@@ -256,7 +256,6 @@ button:active {
 .regenerate-btn:active {
   transform: scale(0.95);
 }
-/* Close icon at top-right corner */
 .close-btn {
   position: absolute;
   top: 10px;
@@ -272,7 +271,6 @@ button:active {
   color: #ff1493; /* Highlight on hover */
 }
 
-/* Bottom close button */
 .close-popup-btn {
   margin-top: 20px;
   padding: 10px 20px;
@@ -296,7 +294,6 @@ button:active {
 }
 
 
-/* Modal styling tweaks */
 .modal-content {
   position: relative;
   padding: 20px;
@@ -334,21 +331,4 @@ button:active {
   transform: scale(0.95);
 }
 
-@media screen and (max-width: 768px) {
-  .main-content {
-    flex-direction: column;
-  }
-  
-  .image-section {
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-  .buttons-section {
-    width: 100%;
-  }
 
-  .container {
-    padding: 20px;
-  }
-}
