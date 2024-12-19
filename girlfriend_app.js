@@ -7,7 +7,7 @@ const images = [
   'assets/us/us46.jpg','assets/us/us47.jpg','assets/us/us48.jpg','assets/us/us49.jpg','assets/us/us50.jpg','assets/us/us51.jpg','assets/us/us52.jpg','assets/us/us53.jpg','assets/us/us54.jpg',
   'assets/us/us55.jpg', 'assets/us/us56.jpg','assets/us/us57.jpg','assets/us/us58.jpg','assets/us/us59.jpg','assets/us/us60.jpg','assets/us/us61.jpg','assets/us/us62.jpg','assets/us/us63.jpg',
   'assets/us/us64.jpg','assets/us/us65.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg','assets/us/us70.JPG', 'assets/us/us71.JPG','assets/us/us72.JPG',
-  'assets/us/us73.jpeg','assets/us/us74.jpeg','assets/us/us75.jpeg','assets/us/us76.jpeg','assets/us/us77.jpeg','assets/us/us78.jpg',
+  'assets/us/us73.jpeg','assets/us/us74.jpeg','assets/us/us75.jpeg','assets/us/us76.jpeg','assets/us/us77.jpeg','assets/us/us78.JPG',
 ];
 
 const poems = [
