@@ -52,7 +52,7 @@ body {
   flex-direction: column;
   gap: 5px;
   position: relative;
-  top: -40px;
+  top: -100px;
 }
 
 button {
@@ -108,7 +108,7 @@ button:active {
 
 .playlist-button {
   padding: 8px 12px; 
-  font-size: 11px; 
+  font-size: 13px; 
   color: white;
   background-color: #1DB954;
   border: none;
@@ -323,7 +323,7 @@ button:active {
 
 .close-app button {
   padding: 12px 20px;
-  font-size: 12px;
+  font-size: 14px;
   color: white; 
   background-color: #ff1493;
   border: none;
