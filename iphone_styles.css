@@ -109,7 +109,7 @@ button:active {
 
 
 .playlist-button {
-  padding: 8px 12px; 
+  padding: 6px 10px; 
   font-size: 11px; 
   color: white;
   background-color: #1DB954;
@@ -323,7 +323,7 @@ button:active {
 }
 
 .close-app {
-  margin-top: -35px;
+  margin-top: -30px;
   text-align: center;
 }
 
