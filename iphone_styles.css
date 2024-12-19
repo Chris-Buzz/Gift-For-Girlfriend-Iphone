@@ -101,7 +101,6 @@ button:active {
   object-fit: cover; 
   object-position: center; 
   cursor: pointer;
-  animation: fadeIn 0.15s ease-in-out;
 }
 
 
