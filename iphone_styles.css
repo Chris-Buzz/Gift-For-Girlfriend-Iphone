@@ -50,13 +50,12 @@ body {
 .buttons-section {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  width: 50%;
+  gap: 8px;
 }
 
 button {
   padding: 8px 12px;
-  font-size: 12px !important;
+  font-size: 10px !important;
   color: white;
   background-color: #ff1493;
   border: none;
