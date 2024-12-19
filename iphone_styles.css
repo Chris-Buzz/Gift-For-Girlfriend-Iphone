@@ -22,11 +22,10 @@ body {
   background-color: rgba(241, 212, 223, 0.85);
   padding: 20px;
   border-radius: 15px;
-  width: 90%;
-  max-width: 400px;
+  width: 100%;
+  max-width: 390px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
-  box-sizing: border-box;
   min-height: 60vh !important;
 }
 
