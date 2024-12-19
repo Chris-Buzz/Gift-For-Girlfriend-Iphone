@@ -23,7 +23,7 @@ body {
   padding: 20px;
   border-radius: 15px;
   width: 100%;
-  max-width: 390px;
+  max-width: 385px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   min-height: 60vh !important;
@@ -55,7 +55,7 @@ body {
 
 button {
   padding: 12px 12px;
-  font-size: 8px;
+  font-size: 10px;
   color: white;
   background-color: #ff1493;
   border: none;
@@ -80,7 +80,7 @@ button:active {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  width: 60%;
+  width: 65%;
 }
 
 #imageBox {
