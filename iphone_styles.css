@@ -229,7 +229,7 @@ button:active {
   border: none;
   padding: 10px 20px;
   margin: 0 5px;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 20px;
   cursor: pointer;
   transition: transform 0.2s, background-color 0.2s;
@@ -269,7 +269,7 @@ button:active {
 .close-btn {
   position: absolute;
   top: 10px;
-  right: 15px;
+  right: 16px;
   font-size: 18px;
   color: black;
   cursor: pointer;
