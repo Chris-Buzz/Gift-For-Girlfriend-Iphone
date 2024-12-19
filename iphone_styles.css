@@ -116,7 +116,7 @@ button:active {
   border: none;
   border-radius: 20px; 
   cursor: pointer;
-  width:90px;
+  width:auto;
   margin-top: 5px; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s, background-color 0.2s;
@@ -332,7 +332,7 @@ button:active {
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  width: 100px;
+  width: auto;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s, background-color 0.2s;
 }
