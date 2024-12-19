@@ -50,10 +50,10 @@ body {
 .buttons-section {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  position: relative;
-  top: -100px;
+  gap: 10px;
+  width: fit-content;
 }
+
 
 button {
   padding: 8px 12px;
