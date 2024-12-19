@@ -59,7 +59,48 @@ const loveStoryPictures = [
   { src: 'assets/Story/story12.JPG', caption: "Decemeber: And now we are getting ready to spend our first Christmas together. We have grown so much as a couple and I am so proud of us. Each and everyday I only think we get stronger and more locked in together. I can't wait to spend this holdiay season with you and give you this gift. I think you will cry but time will only tell. I love you gorgeous, can't wait to make it to 1 year with you. ♡" },
 ];
 
+const dateIdeas = [
+  "Go to the movies",
+  "Make a Build a Bear together",
+  "Visit a local museum",
+  "Do a puzzle together while watching a movie",
+  "Go to a restaurant for dinner",
+  "Cooking date where we both cook together",
+  "Visit a nearby town for the day",
+  "Enjoy a coffee date at a cute café",
+  "Watch the sunset on the beach",
+  "Plan a DIY spa day at home",
+  "Take a scenic drive listening to our playlist",
+  "Go on a shooping spree date",
+  "Visit Luke",
+  "Visit Jackie",
+  'Visit your family',
+  "Go on a lunch date",
+  "Go on a date in Belmar"
+];
+
+
 const letter = "To be written❤️";
+
+let lastIdeaIndex = -1;
+function generateDateIdea() {
+  let randomIndex;
+  do {
+    randomIndex = Math.floor(Math.random() * dateIdeas.length);
+  } while (randomIndex === lastIdeaIndex);
+  lastIdeaIndex = randomIndex;
+  const randomIdea = dateIdeas[randomIndex];
+  openModal(`<p>${randomIdea}</p>`);
+  
+  const popupContent = `
+    <div id="modal-content">
+    <p>${randomIdea}</p>
+      <div class="navigation-buttons">
+      </div>
+    </div>
+  `;
+  openModal(popupContent);
+}
 
 function openModal(content) {
   const popupContent = document.getElementById('popupContent');
