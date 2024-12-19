@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   overflow-y: auto;
 }
 .title-section h1 {
@@ -26,6 +26,7 @@ body {
   max-width: 380px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
+  box-sizing: border-box;
   min-height: 60vh !important;
 }
 
