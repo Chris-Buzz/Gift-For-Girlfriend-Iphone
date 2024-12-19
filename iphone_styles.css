@@ -51,6 +51,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  position: relative;
+  top: -20px;
 }
 
 button {
