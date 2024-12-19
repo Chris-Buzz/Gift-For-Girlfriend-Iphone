@@ -82,7 +82,7 @@ button:active {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  width: 55%;
+  width: 60%;
 }
 
 #imageBox {
