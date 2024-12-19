@@ -52,12 +52,12 @@ body {
   flex-direction: column;
   gap: 5px;
   position: relative;
-  top: -20px;
+  top: -40px;
 }
 
 button {
   padding: 8px 12px;
-  font-size: 9px !important;
+  font-size: 11px !important;
   color: white;
   background-color: #ff1493;
   border: none;
@@ -342,5 +342,6 @@ button:active {
 .close-app button:active {
   transform: scale(0.95);
 }
+
 
 
