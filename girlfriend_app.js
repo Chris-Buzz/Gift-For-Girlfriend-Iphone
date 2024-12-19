@@ -270,6 +270,7 @@ function closeModal() {
 function closeApp() {
 if (confirm("Are you sure you want to close the app?")) {
   window.open('', '_self');
+  window.location.href = "about:blank";
   window.close(); 
 }
 }
