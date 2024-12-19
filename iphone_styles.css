@@ -298,6 +298,7 @@ button:active {
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  width: auto;
   transition: transform 0.2s, background-color 0.2s;
 }
 
