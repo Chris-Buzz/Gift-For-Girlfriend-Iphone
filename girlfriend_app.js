@@ -80,7 +80,19 @@ const dateIdeas = [
 ];
 
 
-const letter = "To be written❤️";
+const letter = ` 
+  Hey beautiful, aka Sam, aka my special girlfriend.
+  Isn't this a surprise? Did you expect me to make an app for you? Did this pass your mind at all when you were guessing what I “got” for you. 
+  You know, for a long time I was thinking of buying tickets to go to a drake concert together however they were either far away or really expensive and so I scrambled. At the start of December I had an aha moment. 
+  I know how to code so why don’t I do my best and do everything I can to make an app for my gorgeous girlfriend. She deserves the world so the least I could do is spend a few hours everyday from now until Christmas 
+  to make an app for her and I hope you like it. I probably by this time already mentioned to you that I can update and change the app to whatever you want. I can add more comments or pictures or even more things on it 
+  if you want. I am the one who controls it so anything you want done to it say the word and I’ll make it happen and when a change happens like all updates I’ll send you little patch notes on what changed. Now I just want 
+  to say how lucky I am to have you as a girlfriend. You are the best thing that has ever happened to me. I don’t think I emphasize that enough. I can truly be myself around you and feel free to let my childish behavior out. 
+  I am the happiest and the most giddy when I am around you. I am so excited to spend this holiday season with you gorgeous, aka Sam, aka the most beautiful girl in the world. I can’t wait to build that gingerbread house 
+  together, wear our matching pajamas tonight, watch a Christmas movie and hopefully when it snows go sledding together. You truly make me the best version of me that I can be and I can’t wait to spend many more holidays 
+  with you my love.
+  I love you so much Sam, more than words can ever describe. 
+  From Chris & Willie❤️`;
 
 let lastIdeaIndex = -1;
 function generateDateIdea() {
