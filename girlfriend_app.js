@@ -253,7 +253,7 @@ const popupContent = `
 function updateLoveStoryModal() {
   const storyPicture = loveStoryPictures[loveStoryIndex];
   const prevButton = loveStoryIndex === 0 ? '' : `<button class="arrow-btn" onclick="prevLoveStory()">⇦ Previous</button>`;
-  const nextButton = loveStoryIndex === 11 ? '' : `<button class="arrow-btn" onclick="nextLoveStory()">⇨ Next</button>`;
+  const nextButton = loveStoryIndex === 12 ? '' : `<button class="arrow-btn" onclick="nextLoveStory()">⇨ Next</button>`;
   const popupContent = `
     <div id="storyContent" style="overflow: hidden; border-radius: 15px;">
     <img src="${storyPicture.src}" alt="Love Story" style="width: 100%; height: auto; border-radius: 15px;">
@@ -273,7 +273,7 @@ function startLoveStory() {
 }
 
 function nextLoveStory() {
-  if (loveStoryIndex != 11){
+  if (loveStoryIndex != 12){
     loveStoryIndex = (loveStoryIndex + 1) % loveStoryPictures.length; 
     updateLoveStoryModal();
   }
