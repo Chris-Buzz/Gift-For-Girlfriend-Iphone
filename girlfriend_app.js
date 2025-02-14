@@ -297,3 +297,10 @@ if (confirm("Are you sure you want to close the app?")) {
   window.close(); 
 }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    if (!localStorage.getItem("valentinesAlertShown")) {
+        alert("Happy Valentine's Day, my love! ❤️ You're the best thing in my life! 😘");
+        localStorage.setItem("valentinesAlertShown", "true");
+    }
+});
