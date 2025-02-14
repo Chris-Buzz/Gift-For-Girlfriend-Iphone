@@ -8,7 +8,7 @@ const images = [
   'assets/us/us55.jpg', 'assets/us/us56.jpg','assets/us/us57.jpg','assets/us/us58.jpg','assets/us/us59.jpg','assets/us/us60.jpg','assets/us/us61.jpg','assets/us/us62.jpg','assets/us/us63.jpg',
   'assets/us/us64.jpg','assets/us/us65.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg','assets/us/us70.JPG', 'assets/us/us71.JPG','assets/us/us72.JPG',
   'assets/us/us73.jpeg','assets/us/us74.jpeg','assets/us/us75.jpeg','assets/us/us76.jpeg','assets/us/us77.jpeg','assets/us/us78.JPG','assets/us/us79.jpeg','assets/us/us80.jpeg','assets/us/us81.jpg',
-  'assets/us/us82.jpg','assets/us/us83.jpg','assets/us/us84.jpg','assets/us/us85.jpg','assets/us/us86.jpeg','assets/us/us87.jpg','assets/us/us88.jpg'
+  'assets/us/us82.jpg','assets/us/us83.jpg','assets/us/us84.jpg','assets/us/us85.jpg','assets/us/us86.jpeg','assets/us/us87.jpg','assets/us/us88.jpg',
 ];
 
 const poems = [
@@ -69,7 +69,6 @@ const loveStoryPictures = [
   { src: 'assets/Story/story11.JPG', caption: "Novemeber: Honestly, not much happened in November, other than us getting closer and spending each day together, and going to your house for your brothers bday which I had a lot of fun doing. That's the best thing though, spending time with the most beautiful girl in the world. ♡" },
   { src: 'assets/Story/story12.JPG', caption: "Decemeber: We spent the holidays together! We went to my sisters for her Christmas party, you came over my house to celebrate the New Year's with me. You don't understand how much that meant to me. Over the holiday, somehow, someway we got even closer than we already were. I am so happy, and lucky to have someone as beautiful as you in my life. ♡" },
   { src: 'assets/Story/story13.jpg', caption: "January: January was an eventful month for us. For starters we made it to 9 months together as a couple! We are almost at 10 months now and we are about to celebrate Valentine's Day together, which I can't wait for. In Januray we went to the city together, experienced the Summit and you gave me the greatest Christmas gift I have ever recieved. Going to a Knicks game! You and my family hav gotten so close and I can't wait to experience many more years with you. I love you so much beautiful. ♡" },
-];
 ];
 
 const dateIdeas = [
