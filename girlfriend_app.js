@@ -303,4 +303,10 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("Happy Valentine's Day, my love! ❤️ You're the best thing in my life! 😘");
         localStorage.setItem("valentinesAlertShown", "true");
     }
+
+    if (!localStorage.getItem("valentinesUpdateShown")) {
+        alert("💖 Valentine's Day Update 💖\n\n✨ 10 New Pictures Added 📸\n🎨 Background Updated 🌸\n📖 New Love Story (January Edition) 🥰\n💌 Valentine's Day Surprise 🎁\n\nHope you love the updates as much as I love you! 😘");
+        localStorage.setItem("valentinesUpdateShown", "true");
+    }
 });
+
