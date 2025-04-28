@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ff1493'><path d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/></svg>">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Love App</title>
@@ -14,24 +15,24 @@
     <!-- Title Section -->
     <div class="title-section">
       <h1>Welcome to our Love App Sam ❤️</h1>
-      <p>A special app just for you! I didn't know what to get you for xmas but I know how to code. Tap the buttons below to explore random images, poems, comments, my christmas love letter and more, Enjoy the surprise! XOXO 
+      <p>  Happy One-Year Anniversary, Sam!❤️. Thank you for making this past year so magical. 
+      Here's to many more years of love and happiness together! XOXO
     </p>
     </div>
-
     <!-- Main Content -->
     <div class="main-content">
       <!-- Buttons Section -->
       <div class="buttons-section">
-        <button onclick="showRandomImage()">🎨 Change Picture of Us</button>
-        <button onclick="showLetter()">✉️ Show Love Letter</button>
-        <button onclick="showRandomComment()">💬 Love Comments</button>
-        <button onclick="showRandomPoem()">📜 Random Love Poems</button>
-        <button onclick="startLoveStory()">💖 Show Our Love Story</button>
-        <button onclick="showRandomCatPicture()">🐾 Willie & Others</button>
-        <button onclick="runFlowerAnimation()">🌸 Flower Animation</button>
-        <button onclick = "generateDateIdea()">📝 Date Ideas</button>
+        <button onclick="showRandomImage()" class="pulse-btn">🎨 Change Picture of Us</button>
+        <button onclick="showLetterOptions()" class="pulse-btn">✉️ Love Letters</button>
+        <button onclick="showRandomComment()" class="pulse-btn">💬 Love Comments</button>
+        <button onclick="showRandomPoem()" class="pulse-btn">📜 Random Love Poems</button>
+        <button onclick="showLoveStory()" class="pulse-btn">💖 Show Our Love Story</button>
+        <button onclick="showRandomCatPicture()" class="pulse-btn">🐾 Willie & Others</button>
+        <button onclick="runFlowerAnimation()" class="pulse-btn">🌸 Flower Animation</button>
+        <button onclick="generateDateIdea()" class="pulse-btn">📝 Date Ideas</button>
+        <button onclick="showCountdown()" class="pulse-btn">🎉 Special Dates</button>
       </div>
-
       <!-- Image Section -->
       <div class="image-section">
         <div id="imageBox">
@@ -42,18 +43,37 @@
       </div>
     </div>
     <div class="close-app">
-        <button onclick="closeApp()">✘ Close App</button>
+        <button onclick="closeApp()" class="pulse-btn">✘ Close App</button>
     </div>
-
-  <!-- Popup Modal -->
-<div id="popupModal" class="modal">
-  <div class="modal-content">
-    <span class="close-btn" onclick="closeModal()">&times;</span>
-    <div id="popupContent">
-      <!-- Dynamic content like images, text, etc., will appear here -->
-    </div>
-    <button class="close-popup-btn" onclick="closeModal()">✘ Close</button>
   </div>
-</div>
+  
+  <!-- Popup Modal -->
+  <div id="popupModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <div id="popupContent">
+        <!-- Dynamic content like images, text, etc., will appear here -->
+      </div>
+      <button class="close-popup-btn" onclick="closeModal()">✘ Close</button>
+    </div>
+  </div>
+
+  <!-- Update Modal -->
+  <div id="updateModal" class="modal">
+    <div class="modal-content update-content">
+      <span class="close-btn" onclick="closeUpdateModal()">&times;</span>
+      <h2>🎉 One Year Anniversary Update! 🎉</h2>
+      <div class="update-details">
+        <p>💌 New anniversary letter added</p>
+        <p>✨ Enhanced animations throughout the app</p>
+        <p>📝 More poems, comments, and date ideas</p>
+        <p>📅 Special date countdown feature</p>
+        <p>💕 Improved story viewing experience</p>
+        <p>🎨 Performance optimizations</p>
+      </div>
+      <p class="update-message">Happy one year, my love! Here's to many more! ❤️</p>
+      <button class="close-popup-btn" onclick="closeUpdateModal()">Continue to App</button>
+    </div>
+  </div>
 </body>
 </html>
