@@ -133,7 +133,9 @@ button:active {
 .profile-picture:hover {
   transform: scale(1.03);
 }
-
+#profile {
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
 .playlist-button {
   padding: 6px 10px; 
   font-size: 11px; 
