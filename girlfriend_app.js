@@ -8,9 +8,9 @@ const images = [
   'assets/us/us55.jpg', 'assets/us/us56.jpg','assets/us/us57.jpg','assets/us/us58.jpg','assets/us/us59.jpg','assets/us/us60.jpg','assets/us/us61.jpg','assets/us/us62.jpg','assets/us/us63.jpg',
   'assets/us/us64.jpg','assets/us/us65.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg','assets/us/us70.JPG', 'assets/us/us71.JPG','assets/us/us72.JPG',
   'assets/us/us73.jpeg','assets/us/us74.jpeg','assets/us/us75.jpeg','assets/us/us76.jpeg','assets/us/us77.jpeg','assets/us/us78.JPG','assets/us/us79.jpeg','assets/us/us80.jpeg','assets/us/us81.jpg',
-  'assets/us/us82.jpg','assets/us/us83.jpg','assets/us/us84.jpg','assets/us/us85.jpg','assets/us/us86.jpg','assets/us/us87.jpg','assets/us/us88.jpg','assets/us/us89.png','assets/us/us90.png','assets/us/us91.png',
-  'assets/us/us92.png','assets/us/us93.png','assets/us/us94.png','assets/us/us95.png','assets/us/us96.png','assets/us/us97.png','assets/us/us98.jpg','assets/us/us99.jpg','assets/us/us100.jpg','assets/us/us101.jpg',
-  'assets/us/us102.jpg','assets/us/us103.jpg','assets/us/us104.jpg','assets/us/us105.jpeg',
+  'assets/us/us82.jpg','assets/us/us83.jpg','assets/us/us84.jpg','assets/us/us85.jpg','assets/us/us86.jpg','assets/us/us87.jpg','assets/us/us88.jpg','assets/us/us89.PNG','assets/us/us90.PNG','assets/us/us91.PNG',
+  'assets/us/us92.PNG','assets/us/us93.PNG','assets/us/us94.PNG','assets/us/us95.PNG','assets/us/us96.PNG','assets/us/us97.PNG','assets/us/us98.jpg','assets/us/us99.jpg','assets/us/us100.jpg','assets/us/us101.jpg',
+  'assets/us/us102.jpg','assets/us/us103.jpg','assets/us/us104.jpg','assets/us/us105.JPEG',
 ];
 
 const poems = [
