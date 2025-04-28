@@ -335,7 +335,7 @@ function showRandomImage() {
     imageElement.onclick = function() {
       showImageInModal(randomImage);
     };
-  }, 300);
+  }, 200);
 }
 
 function showRandomPoem() {
