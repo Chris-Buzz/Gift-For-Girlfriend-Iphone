@@ -234,8 +234,24 @@ button:active {
 }
 
 #popupContent {
-  font-size: 16px;
-  color: #800080;  
+  max-height: 70vh; /* Limit the height to 70% of the viewport */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  padding: 10px;
+  font-size: 14px; /* Adjust font size for smaller text */
+  line-height: 1.6; /* Improve readability with proper line spacing */
+}
+
+#popupContent::-webkit-scrollbar {
+  width: 8px; /* Customize scrollbar width */
+}
+
+#popupContent::-webkit-scrollbar-thumb {
+  background-color: #ff85c0; /* Customize scrollbar color */
+  border-radius: 10px;
+}
+
+#popupContent::-webkit-scrollbar-track {
+  background-color: #fcd9e5; /* Customize scrollbar track color */
 }
 
 #storyContent {
