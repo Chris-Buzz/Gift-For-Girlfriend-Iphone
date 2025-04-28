@@ -323,15 +323,19 @@ function showRandomImage() {
   imageElement.style.opacity = '0';
   imageElement.style.transform = 'scale(0.95)';
   
+  // Use a slightly longer timeout to ensure the fade-out completes
   setTimeout(() => {
+    // Change the image
     imageElement.src = randomImage;
     
-    // Animate the new image in
-    setTimeout(() => {
-      imageElement.style.opacity = '1';
-      imageElement.style.transform = 'scale(1)';
-    }, 100);
+    // Force a browser reflow to ensure the transition works
+    void imageElement.offsetWidth;
     
+    // Fade in the new image
+    imageElement.style.opacity = '1';
+    imageElement.style.transform = 'scale(1)';
+    
+    // Update the click handler
     imageElement.onclick = function() {
       showImageInModal(randomImage);
     };
