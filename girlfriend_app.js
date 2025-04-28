@@ -146,24 +146,36 @@ const letter = `
 
 // Add anniversary letter
 const anniversaryLetter = `
-  My dearest Sam,
+ Dear Sam,
 
-  Can you believe it's been a whole year since we made things official? 365 days of laughter, love, and growing together. As I sit here writing this letter, I'm overwhelmed with gratitude for having you in my life.
+Can you believe it’s been a whole year since our love began?! 365 days, 8,760 hours, 525,600 minutes, and 31,536,000 seconds of love, laughter, and growing together. The minute I saw you and talked to you for the first time, I knew you were special. In a weird way, when I was with you, I felt like I was home. I felt safe. I knew that there was something between us—some force that bound our souls together.
 
-  This year has been the most incredible journey. From our first dates to long-distance challenges, from summer adventures to cozy nights watching movies together. Every moment with you has been a treasure, and I've saved each one in my heart.
+Talking to you came easy, laughing with you was easy, fucking with you was easy, and most of all, smiling with you was easy. I don’t think, in the 31,536,000 seconds of loving you, that I have ever faked a single smile when I’m with you. That’s just because you make it easy.
 
-  I remember how nervous I was in the beginning, wondering if someone as amazing as you could really be interested in me. Now I wake up every day grateful that you chose me, and that we chose each other.
+This was all before we even started on our destined journey of being in love with one another. I’m overwhelmed with gratitude that I have someone like you in my life—someone I can go to every day, talk to every day, or just be present with every single day. You don’t just get me—you understand me in a way I’ve never felt before. You understand my needs even when I’m silent.
 
-  You've seen me at my best and my worst, and somehow you love both versions of me. You make me want to be better, not because you expect it, but because seeing your smile when I succeed is the greatest reward.
+I know you know this past year hasn't been the easiest with my mental health, but I need you to know how lucky and honored I feel that you listen and that you stand by my side for every challenge I face. You’ve seen me at my best and my worst, and somehow, you still choose to love both versions of me.
 
-  Your kindness, your strength, your humor, and yes, your beauty (inside and out) continue to amaze me every single day. When you put your head on my shoulder or reach for my hand, I feel like the luckiest person alive.
+I’m going to go back to this point (don’t worry, the letter’s gonna become happy after this): you feel like home to me. If I have a bad day—go cuddle with Sam. If I have a bad high—go snuggle with Sam. If I’m scared, anxious, uneasy, disassociated, mad, sad, tired—GO SNUGGLE UP WITH SAM BECAUSE SHE IS A GODDAMN SAFE HAVEN.
 
-  As we start our second year together, I promise to continue growing with you, supporting your dreams, making you laugh until you snort (which is adorable, by the way), and showing you every day how much you mean to me.
+You are my home. You are my safe haven. You are the greatest thing to ever step into my life, and I pray to God every day that I was lucky enough to find the love of someone as incredible as you—and I need you to know that. You are the single greatest thing that has ever happened to me.
 
-  Thank you for the best year of my life. Here's to many, many more.
+Okay, now that I got that out… happy part, yay! I don't want this to be a long read, so I’ll keep it short, simple, and straight to the point. This past year—31,536,000 seconds—has been the most incredible journey and greatest year of my life.
 
-  All my love forever,
-  Chris (& Willie, who sends purrs and paw taps)❤️`;
+In the beginning, I was so nervous. How could a guy like me be able to receive the love of someone as perfect and as beautiful as you? I wake up every day grateful that you chose me, and that we chose each other. I’m amazed at how far we’ve come in our relationship and how close we have gotten. It feels like I have known you for my entire life—it really does.
+
+I love how we aren’t like other couples. I love how we are different in understanding each other and in how we act with each other. It’s like we are best friends, and I think it makes our relationship so diverse and so strong.
+
+Baby, I love you. Your kindness, your strength, your humor, and your beauty (inside 😉 and out) continue to amaze me every single day. When you put your head on my shoulder or reach for my hand, my stomach still gets butterflies, and sometimes I’m still nervous to talk to you ‘cause I get frazzled by your gorgeousness.
+
+As we start our second year together, I promise to continue growing with you, supporting your dreams, making you laugh until you snort (which is adorable, by the way), and showing you every day how much you mean to me.
+
+Thank you for the best year of my life. Here's to many, many more.
+
+All my love forever,
+Chris
+(& Willie, who sends purrs and a little saltiness that he’s no longer number one) ❤️
+`;
 
 // Add global variables
 let loveStoryIndex = 0;
