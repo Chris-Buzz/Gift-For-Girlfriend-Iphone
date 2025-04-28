@@ -187,14 +187,6 @@ let modalIsOpen = false;
 let currentModalContent = "";
 let slideDirection = "right";
 
-// Show update modal when the page loads
-document.addEventListener("DOMContentLoaded", function() {
-  // Show the one-year anniversary update modal
-  if (!localStorage.getItem("oneYearUpdateShown")) {
-    document.getElementById('updateModal').style.display = 'flex';
-    document.querySelector('.update-content').classList.add('fade-in');
-    localStorage.setItem("oneYearUpdateShown", "true");
-  }
   
   // Set initial image
   const imageElement = document.getElementById('profile');
