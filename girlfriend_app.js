@@ -8,7 +8,9 @@ const images = [
   'assets/us/us55.jpg', 'assets/us/us56.jpg','assets/us/us57.jpg','assets/us/us58.jpg','assets/us/us59.jpg','assets/us/us60.jpg','assets/us/us61.jpg','assets/us/us62.jpg','assets/us/us63.jpg',
   'assets/us/us64.jpg','assets/us/us65.jpg','assets/us/us66.jpg','assets/us/us67.jpg','assets/us/us68.jpg','assets/us/us69.jpg','assets/us/us70.JPG', 'assets/us/us71.JPG','assets/us/us72.JPG',
   'assets/us/us73.jpeg','assets/us/us74.jpeg','assets/us/us75.jpeg','assets/us/us76.jpeg','assets/us/us77.jpeg','assets/us/us78.JPG','assets/us/us79.jpeg','assets/us/us80.jpeg','assets/us/us81.jpg',
-  'assets/us/us82.jpg','assets/us/us83.jpg','assets/us/us84.jpg','assets/us/us85.jpg','assets/us/us86.jpg','assets/us/us87.jpg','assets/us/us88.jpg',
+  'assets/us/us82.jpg','assets/us/us83.jpg','assets/us/us84.jpg','assets/us/us85.jpg','assets/us/us86.jpg','assets/us/us87.jpg','assets/us/us88.jpg','assets/us/us89.png','assets/us/us90.png','assets/us/us91.png',
+  'assets/us/us92.png','assets/us/us93.png','assets/us/us94.png','assets/us/us95.png','assets/us/us96.png','assets/us/us97.png','assets/us/us98.jpg','assets/us/us99.jpg','assets/us/us100.jpg','assets/us/us101.jpg',
+  'assets/us/us102.jpg','assets/us/us103.jpg','assets/us/us104.jpg','assets/us/us105.jpeg',
 ];
 
 const poems = [
@@ -52,7 +54,9 @@ const catPictures = [
   'assets/animals/pet67.jpg','assets/animals/pet68.jpg','assets/animals/pet69.jpg','assets/animals/pet70.jpg','assets/animals/pet71.jpg','assets/animals/pet72.jpg',
   'assets/animals/pet73.jpg','assets/animals/pet74.jpg','assets/animals/pet75.jpg','assets/animals/pet76.jpg','assets/animals/pet77.jpg','assets/animals/pet78.jpg',
   'assets/animals/pet79.jpg','assets/animals/pet80.jpg','assets/animals/pet81.jpg','assets/animals/pet82.jpg','assets/animals/pet83.JPG','assets/animals/pet84.jpg',
-  'assets/animals/pet85.jpg','assets/animals/pet87.jpg'
+  'assets/animals/pet85.jpg','assets/animals/pet86.jpg','assets/animals/pet87.jpg','assets/animals/pet88.jpg','assets/animals/pet89.jpg','assets/animals/pet90.jpg',
+  'assets/animals/pet91.jpg','assets/animals/pet92.jpg','assets/animals/pet93.jpg','assets/animals/pet94.jpg','assets/animals/pet95.jpg','assets/animals/pet96.jpg',
+  'assets/animals/pet97.jpg','assets/animals/pet98.jpg',
 ];
 
 const loveStoryPictures = [
