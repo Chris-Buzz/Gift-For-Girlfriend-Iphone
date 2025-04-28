@@ -9,6 +9,7 @@ body {
   height: 100vh;
   overflow-y: auto;
 }
+
 .title-section h1 {
   font-size: 3.0rem;
   font-weight: bold;
@@ -16,7 +17,6 @@ body {
   text-align: center;
   margin-bottom: 10px;
 }
-
 
 .container {
   background-color: rgba(241, 212, 223, 0.85);
@@ -55,7 +55,6 @@ body {
   width: fit-content;
 }
 
-
 button {
   padding: 10px 14px;
   font-size: 10px !important;
@@ -66,17 +65,39 @@ button {
   cursor: pointer;
   width: 150px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s, background-color 0.2s;
+  transition: all 0.3s ease;
 }
 
 button:hover {
   background-color: #d34d8e;
-  transform: scale(1.05);
-  transform: translateY(2px);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 button:active {
-  transform: scale(0.95);
+  transform: translateY(1px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Pulsing animation for buttons */
+.pulse-btn {
+  animation: none;
+}
+
+.pulse-btn:hover {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 20, 147, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 20, 147, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 20, 147, 0);
+  }
 }
 
 .image-section {
@@ -95,6 +116,7 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .profile-picture {
@@ -105,8 +127,12 @@ button:active {
   object-fit: cover; 
   object-position: center; 
   cursor: pointer;
+  transition: transform 0.5s ease-in-out;
 }
 
+.profile-picture:hover {
+  transform: scale(1.03);
+}
 
 .playlist-button {
   padding: 6px 10px; 
@@ -116,23 +142,23 @@ button:active {
   border: none;
   border-radius: 20px; 
   cursor: pointer;
-  width:auto;
+  width: auto;
   margin-top: 5px; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s, background-color 0.2s;
+  transition: all 0.3s ease;
   margin-left: auto;
 }
 
 .playlist-button:hover {
   background-color: #1ed760; 
-  transform: scale(1.05);
-  transform: translateY(-2px)
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .playlist-button:active {
-  transform: scale(0.95); 
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-
 
 .modal {
   display: none;
@@ -144,6 +170,7 @@ button:active {
   background: rgba(0, 0, 0, 0.7);
   justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
 
 .modal-content {
@@ -155,15 +182,35 @@ button:active {
   width: 80%;
   position: relative;
   overflow: hidden;
-  animation: fadeIn 0.2s ease-in-out;
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.fade-out {
+  animation: fadeOut 0.3s ease-in-out;
 }
 
 @keyframes fadeIn {
   from {
     opacity: 0;
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px);
   }
 }
 
@@ -177,11 +224,18 @@ button:active {
   margin: auto; 
   display: block;
   box-sizing: border-box;
+  transition: transform 0.5s ease;
 }
+
+#popupContent img:hover {
+  transform: scale(1.02);
+}
+
 #popupContent {
   font-size: 16px;
   color: #800080;  
 }
+
 #storyContent {
   display: flex;
   flex-direction: column;
@@ -197,7 +251,6 @@ button:active {
   margin-top: 15px;
   padding: 0 10px;
   text-align: center;
-
 }
 
 #storyContent img {
@@ -206,6 +259,11 @@ button:active {
   max-height: 390px;
   border-radius: 10px;
   margin-bottom: 10px;
+  transition: transform 0.5s ease;
+}
+
+#storyContent img:hover {
+  transform: scale(1.02);
 }
 
 #captionArea {
@@ -221,11 +279,19 @@ button:active {
   word-wrap: break-word; 
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
   text-align: center; 
+  transition: all 0.3s ease;
 }
+
+#captionArea:hover {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(252, 232, 238, 0.98);
+}
+
 .navigation-buttons {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  gap: 15px;
 }
 
 .arrow-btn {
@@ -238,17 +304,18 @@ button:active {
   border-radius: 20px;
   width: auto;
   cursor: pointer;
-  transition: transform 0.2s, background-color 0.2s;
+  transition: all 0.3s ease;
 }
 
 .arrow-btn:hover {
   background-color: #ff85c0;
-  transform: scale(1.1);
-  transform: translateY(1px)
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .arrow-btn:active {
-  transform: scale(0.95);
+  transform: translateY(1px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .regenerate-btn {
@@ -261,18 +328,20 @@ button:active {
   border-radius: 20px;
   width: auto;
   cursor: pointer;
-  transition: transform 0.2s, background-color 0.2s;
+  transition: all 0.3s ease;
 }
 
 .regenerate-btn:hover {
   background-color: #ff85c0;
-  transform: scale(1.1);
-  transform: translateY(2px)
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .regenerate-btn:active {
-  transform: scale(0.95);
+  transform: translateY(1px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
+
 .close-btn {
   position: absolute;
   top: 10px;
@@ -281,12 +350,13 @@ button:active {
   color: black;
   cursor: pointer;
   width: auto;
-  transition: transform 0.2s ease-in-out;
+  transition: all 0.3s ease;
 }
 
 .close-btn:hover {
-  transform: scale(1.1);
-  color: #ff1493; /* Highlight on hover */
+  transform: rotate(360deg) scale(1.2); /* Spins and slightly enlarges */
+  transition: transform 0.5s ease-in-out;
+  color: #ff1493; /* Optional: Change color on hover */
 }
 
 .close-popup-btn {
@@ -299,19 +369,19 @@ button:active {
   border-radius: 20px;
   cursor: pointer;
   width: auto;
-  transition: transform 0.2s, background-color 0.2s;
+  transition: all 0.3s ease;
 }
 
 .close-popup-btn:hover {
   background-color: #db083c;
-  transform: scale(1.05);
-  transform: translateY(2px);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .close-popup-btn:active {
-  transform: scale(0.95);
+  transform: translateY(1px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
-
 
 .modal-content {
   position: relative;
@@ -324,7 +394,7 @@ button:active {
 }
 
 .close-app {
-  margin-top: -30px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -338,18 +408,132 @@ button:active {
   cursor: pointer;
   width: auto;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s, background-color 0.2s;
+  transition: all 0.3s ease;
 }
 
 .close-app button:hover {
   background-color: #ff4d4d;
-  transform: scale(1.05);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .close-app button:active {
-  transform: scale(0.95);
+  transform: translateY(1px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
+/* Letter Modal Styling */
+.letter-modal {
+  background: linear-gradient(to bottom right, #ffe6f0, #ffcce6);
+  border: 3px solid #ff85c0;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+}
 
+.letter-modal h2 {
+  font-size: 24px;
+  color: #d34d8e;
+  margin-bottom: 15px;
+}
+
+.letter-modal p {
+  font-size: 16px;
+  color: #800080;
+  margin-bottom: 20px;
+}
+
+/* Letter Buttons */
+.letter-option {
+  background-color: #ff1493;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.letter-option:hover {
+  background-color: #ff85c0;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.letter-option:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Slide-out animation for the current story */
+.slide-out-left {
+  animation: slideOutLeft 0.4s ease forwards;
+}
+
+.slide-out-right {
+  animation: slideOutRight 0.4s ease forwards;
+}
+
+/* Slide-in animation for the next story */
+.slide-in-left {
+  animation: slideInLeft 0.4s ease forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 0.4s ease forwards;
+}
+
+/* Keyframes for sliding out to the left */
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+/* Keyframes for sliding out to the right */
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Keyframes for sliding in from the left */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Keyframes for sliding in from the right */
+@keyframes slideInRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
