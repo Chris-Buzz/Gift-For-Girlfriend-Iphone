@@ -330,12 +330,12 @@ function showRandomImage() {
     setTimeout(() => {
       imageElement.style.opacity = '1';
       imageElement.style.transform = 'scale(1)';
-    }, 50);
+    }, 100);
     
     imageElement.onclick = function() {
       showImageInModal(randomImage);
     };
-  }, 200);
+  }, 300);
 }
 
 function showRandomPoem() {
