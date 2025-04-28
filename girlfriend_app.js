@@ -21,7 +21,11 @@ const poems = [
   "Sometimes the darkness wins; It settles over me like a heavy fog; Dulling the edges of the world; Filling my mind with silence that feels too loud; I move through it slowly; Every step heavier than the last; Wondering if it will ever lift; Or if this is where I’m meant to stay; And then there’s you; You don’t banish the darkness; You don’t pretend it isn’t there; You just sit with me in it; Your presence a quiet reminder; That I’m not alone; You bring warmth where there was only cold; Not with bright flashes or grand gestures; But with the steady light of who you are; Because of you, I remember; The darkness is not endless; It is only a passing moment; In a life filled with your love.",
   "Loudness;Sometimes the world is too loud; and everyone else is talking; the quiet I crave is you; You listen to me without judgment,without interruption,as though my words matter; In a room full of voices,you hear me—not just the sound,but the weight behind it, the things I cannot say, I can’t get out; You hold my silence,and in that stillness,I find the space to be truly known; While others offer advice; you simply listen,and that is enough; Your presence alone gives me peace, reminds me that I am understood, even in my most difficult moments.",
   "When the world feels to heavy; And everything is unknown; Your presence is where I find peace; In your eyes, I see no judgment,only acceptance and calm; You are my sanctuary,the place where I can breathe,where I am simply enough.",
-
+  "Every moment with you feels like a dream; Your love, a steady flowing stream; Together we've built something rare; A bond that shows how much we care; One year together, a milestone reached; My heart forever to yours is leached; Your smile still makes my heart race; In your arms is my favorite place; I promise to love you, day by day; As we continue on our beautiful way.",
+  "A year of moments, big and small; Each one special, I treasure them all; The way you laugh, the way you smile; Makes every second with you worthwhile; From our first kiss to this day; You've shown me love in every way; I can't believe how lucky I've been; To have your heart and call you mine; Here's to our first year, my dear; And to many more, year after year.",
+  "One year together, how time flies; When I'm with you, my spirit flies high; Through every season, winter to fall; Your love has been my all in all; The memories we've made are treasures; Filled with countless joyful pleasures; Your hand in mine feels just right; Like stars that brighten the darkest night; Thank you for twelve months of bliss; Sealed with every loving kiss.",
+  "They say when you know, you know; And with you, my love continues to grow; A year has passed since we began; This journey together, hand in hand; Through laughter and tears, ups and downs; You're the one who turns my frowns; Into smiles that light up my face; With your warmth, your charm, your grace; Forever with you is where I belong; Our love a beautiful, endless song.",
+  "Your eyes tell stories of kindness and grace; In this world, you're my favorite place; Through seasons changing, one thing stays true; My heart belongs completely to you; One year of memories we've written so far; Each one precious, like a wishing star; I promise to love you tomorrow and today; Walking beside you all the way; Happy anniversary to my heart's delight; You make my world incredibly bright."
     
 ];
 
@@ -37,7 +41,21 @@ const comments = [
   "You are my light in the dark ♡","You have the sweetest heart ♡","You make me want to be a better person ♡","I love everything about you ♡","You’re my favorite hello and hardest goodbye ♡", "You’re my partner in everything ♡","I could spend forever in your arms ♡",
   "You make every day special ♡","You’re the reason I believe in love ♡","You leave me speechless ♡","I feel like the luckiest person alive because I have you ♡","You make my heart so full ♡","You are my soulmate ♡", "I love you more than words can ever express ♡",
   "You are my best friend ♡","You are my twin fr  ♡ ", 
-  
+  "One year down, forever to go! ♡",
+  "Every day with you feels like a gift ♡",
+  "You're my favorite hello and my hardest goodbye ♡",
+  "Being with you for a year has been the best adventure ♡",
+  "You're my happy place ♡",
+  "I fall more in love with you every day ♡",
+  "Thank you for the most incredible year of my life ♡",
+  "You're the reason I believe in soulmates ♡",
+  "I love calling you mine ♡",
+  "I never knew love could feel this good ♡",
+  "Your heart is the most beautiful thing I know ♡",
+  "One year later and I'm still crazy about you ♡",
+  "You make ordinary days extraordinary ♡",
+  "I love our love story ♡",
+  "You're everything I never knew I needed ♡"
 ];
 const catPictures = [
   'assets/animals/pet1.JPEG','assets/animals/pet2.JPEG','assets/animals/pet3.JPEG','assets/animals/pet4.JPEG','assets/animals/pet5.JPEG','assets/animals/pet6.JPEG',
@@ -92,52 +110,193 @@ const dateIdeas = [
   "Visit Jackie",
   'Visit your family',
   "Go on a lunch date",
-  "Go on a date in Belmar"
+  "Go on a date in Belmar",
+  "Stargazing picnic at night",
+  "Take a cooking class together",
+  "Visit a new town or city for the day",
+  "Indoor rock climbing adventure",
+  "Go to a concert",
+  "Have breakfast in bed together",
+  "Visit a botanical garden",
+  "Take dance lessons together",
+  "Have a game night with friends",
+  "Go on a weekend getaway",
+  "Visit an aquarium",
+  "Take a pottery class together",
+  "Explore a farmers market and cook dinner with what you find",
+  "Have a photoshoot together",
+  "Go to a drive-in movie"
 ];
 
 
+// The original Christmas letter (keep this)
 const letter = ` 
   Hey beautiful, aka Sam, aka my special girlfriend.
-  Isn't this a surprise? Did you expect me to make an app for you? Did this pass your mind at all when you were guessing what I “got” for you. 
+  Isn't this a surprise? Did you expect me to make an app for you? Did this pass your mind at all when you were guessing what I "got" for you. 
   You know, for a long time I was thinking of buying tickets to go to a drake concert together however they were either far away or really expensive and so I scrambled. At the start of December I had an aha moment. 
-  I know how to code so why don’t I do my best and do everything I can to make an app for my gorgeous girlfriend. She deserves the world so the least I could do is spend a few hours everyday from now until Christmas 
+  I know how to code so why don't I do my best and do everything I can to make an app for my gorgeous girlfriend. She deserves the world so the least I could do is spend a few hours everyday from now until Christmas 
   to make an app for her and I hope you like it. I probably by this time already mentioned to you that I can update and change the app to whatever you want. I can add more comments or pictures or even more things on it 
-  if you want. I am the one who controls it so anything you want done to it say the word and I’ll make it happen and when a change happens like all updates I’ll send you little patch notes on what changed. Now I just want 
-  to say how lucky I am to have you as a girlfriend. You are the best thing that has ever happened to me. I don’t think I emphasize that enough. I can truly be myself around you and feel free to let my childish behavior out. 
-  I am the happiest and the most giddy when I am around you. I am so excited to spend this holiday season with you gorgeous, aka Sam, aka the most beautiful girl in the world. I can’t wait to build that gingerbread house 
-  together, wear our matching pajamas tonight, watch a Christmas movie and hopefully when it snows go sledding together. You truly make me the best version of me that I can be and I can’t wait to spend many more holidays 
+  if you want. I am the one who controls it so anything you want done to it say the word and I'll make it happen and when a change happens like all updates I'll send you little patch notes on what changed. Now I just want 
+  to say how lucky I am to have you as a girlfriend. You are the best thing that has ever happened to me. I don't think I emphasize that enough. I can truly be myself around you and feel free to let my childish behavior out. 
+  I am the happiest and the most giddy when I am around you. I am so excited to spend this holiday season with you gorgeous, aka Sam, aka the most beautiful girl in the world. I can't wait to build that gingerbread house 
+  together, wear our matching pajamas tonight, watch a Christmas movie and hopefully when it snows go sledding together. You truly make me the best version of me that I can be and I can't wait to spend many more holidays 
   with you my love.
   I love you so much Sam, more than words can ever describe. 
   From Chris & Willie❤️`;
 
-let lastIdeaIndex = -1;
-function generateDateIdea() {
-  let randomIndex;
-  do {
-    randomIndex = Math.floor(Math.random() * dateIdeas.length);
-  } while (randomIndex === lastIdeaIndex);
-  lastIdeaIndex = randomIndex;
-  const randomIdea = dateIdeas[randomIndex];
-  openModal(`<p>${randomIdea}</p>`);
+// Add anniversary letter
+const anniversaryLetter = `
+  My dearest Sam,
+
+  Can you believe it's been a whole year since we made things official? 365 days of laughter, love, and growing together. As I sit here writing this letter, I'm overwhelmed with gratitude for having you in my life.
+
+  This year has been the most incredible journey. From our first dates to long-distance challenges, from summer adventures to cozy nights watching movies together. Every moment with you has been a treasure, and I've saved each one in my heart.
+
+  I remember how nervous I was in the beginning, wondering if someone as amazing as you could really be interested in me. Now I wake up every day grateful that you chose me, and that we chose each other.
+
+  You've seen me at my best and my worst, and somehow you love both versions of me. You make me want to be better, not because you expect it, but because seeing your smile when I succeed is the greatest reward.
+
+  Your kindness, your strength, your humor, and yes, your beauty (inside and out) continue to amaze me every single day. When you put your head on my shoulder or reach for my hand, I feel like the luckiest person alive.
+
+  As we start our second year together, I promise to continue growing with you, supporting your dreams, making you laugh until you snort (which is adorable, by the way), and showing you every day how much you mean to me.
+
+  Thank you for the best year of my life. Here's to many, many more.
+
+  All my love forever,
+  Chris (& Willie, who sends purrs and paw taps)❤️`;
+
+// Add global variables
+let loveStoryIndex = 0;
+let modalIsOpen = false;
+let currentModalContent = "";
+let slideDirection = "right";
+
+// Show update modal when the page loads
+document.addEventListener("DOMContentLoaded", function() {
+  // Show the one-year anniversary update modal
+  if (!localStorage.getItem("oneYearUpdateShown")) {
+    document.getElementById('updateModal').style.display = 'flex';
+    document.querySelector('.update-content').classList.add('fade-in');
+    localStorage.setItem("oneYearUpdateShown", "true");
+  }
   
+  // Set initial image
+  const imageElement = document.getElementById('profile');
+  if (imageElement) {
+    imageElement.src = images[0];
+    imageElement.onclick = function() {
+      showImageInModal(images[0]);
+    };
+  }
+  
+  // Set current date
+  const dateElement = document.getElementById('current-date');
+  if (dateElement) {
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    dateElement.textContent = new Date().toLocaleDateString('en-US', options);
+  }
+  
+  // Check for anniversary and show special message if it's today
+  const today = new Date();
+  if (today.getDate() === 28 && today.getMonth() === 3) { 
+    setTimeout(() => {
+      const popupContent = `
+        <div id="modal-content" class="anniversary-special">
+          <h2>Happy Anniversary, My Love! ❤️</h2>
+          <p>Today marks one year of us being together, and I couldn't be happier to celebrate this milestone with you.</p>
+          <p>Here are some exciting updates to your app, made just for you:</p>
+          <ul>
+            <li>🎉 A new <strong>Countdown</strong> feature to track our special moments.</li>
+            <li>💌 Beautifully designed <strong>letters</strong> for you to read.</li>
+            <li>🎥 Enhanced <strong>animations</strong> for a smoother and more magical experience.</li>
+            <li>📖 New <strong>love stories</strong> to relive our favorite memories.</li>
+            <li>💬 Fresh <strong>comments</strong> and <strong>poems</strong> to make you smile.</li>
+            <li>🐾 Adorable <strong>cat pictures</strong> to brighten your day.</li>
+          </ul>
+          <p>Thank you for making this past year the best of my life. Here's to many more years of love and happiness together. I love you so much, Sam. ❤️</p>
+        </div>
+      `;
+      openModal(popupContent);
+    }, 300);
+  }
+});
+
+function closeUpdateModal() {
+  const updateModal = document.getElementById('updateModal');
+  const content = document.querySelector('.update-content');
+  
+  content.classList.remove('fade-in');
+  content.classList.add('fade-out');
+  
+  setTimeout(() => {
+    updateModal.style.display = 'none';
+    content.classList.remove('fade-out');
+  }, 300);
+}
+
+function showLetterOptions() {
   const popupContent = `
     <div id="modal-content">
-    <p>${randomIdea}</p>
-      <div class="navigation-buttons">
-      </div>
+      <h3>Choose a Letter</h3>
+      <button class="letter-option" onclick="showLetter('christmas')">Christmas Love Letter</button>
+      <button class="letter-option" onclick="showLetter('anniversary')">One Year Anniversary Letter</button>
     </div>
   `;
   openModal(popupContent);
 }
 
+function showLetter(type) {
+  let letterContent;
+  
+  if (type === 'anniversary') {
+    letterContent = anniversaryLetter;
+  } else {
+    letterContent = letter; // The original Christmas letter
+  }
+  
+  closeModal();
+  setTimeout(() => {
+    openModal(`<p style="font-size: 12px;">${letterContent}</p>`);
+  }, 300);
+}
+
 function openModal(content) {
+  if (modalIsOpen) {
+    closeModal();
+    setTimeout(() => {
+      actuallyOpenModal(content);
+    }, 300);
+  } else {
+    actuallyOpenModal(content);
+  }
+}
+
+function actuallyOpenModal(content) {
   const popupContent = document.getElementById('popupContent');
   popupContent.innerHTML = content;
-  document.getElementById('popupModal').style.display = 'flex';
+  
+  const modal = document.getElementById('popupModal');
+  modal.style.display = 'flex';
+  
+  const modalContent = document.querySelector('.modal-content');
+  modalContent.classList.add('fade-in');
+  
+  currentModalContent = content;
+  modalIsOpen = true;
 }
 
 function closeModal() {
-  document.getElementById('popupModal').style.display = 'none';
+  const modal = document.getElementById('popupModal');
+  const modalContent = document.querySelector('.modal-content');
+  
+  modalContent.classList.remove('fade-in');
+  modalContent.classList.add('fade-out');
+  
+  setTimeout(() => {
+    modal.style.display = 'none';
+    modalContent.classList.remove('fade-out');
+    modalIsOpen = false;
+  }, 300);
 }
 
 function showImageInModal(imageSrc) {
@@ -151,74 +310,243 @@ function showImageInModal(imageSrc) {
   openModal(popupContent);
 }
 
-const imageElement = document.getElementById('profile');
-imageElement.src = 'assets/us/us.png';
-
-imageElement.onclick = function() {
-  showImageInModal('assets/us/us.png');
-};
-
-let lastRandomImage = null;
 function showRandomImage() {
   let randomImage;
   do {
     randomImage = images[Math.floor(Math.random() * images.length)];
-    console.log(randomImage);
-  } while (randomImage === lastRandomImage);
-  lastRandomImage = randomImage;
-
+  } while (randomImage === window.lastRandomImage);
+  window.lastRandomImage = randomImage;
 
   const imageElement = document.getElementById('profile');
-  imageElement.src = randomImage;
-
-  imageElement.onclick = function() {
-    showImageInModal(randomImage);
-  };
+  
+  // Add animation before changing the image
+  imageElement.style.opacity = '0';
+  imageElement.style.transform = 'scale(0.95)';
+  
+  setTimeout(() => {
+    imageElement.src = randomImage;
+    
+    // Animate the new image in
+    setTimeout(() => {
+      imageElement.style.opacity = '1';
+      imageElement.style.transform = 'scale(1)';
+    }, 50);
+    
+    imageElement.onclick = function() {
+      showImageInModal(randomImage);
+    };
+  }, 300);
 }
 
-
-let lastPoem = null;
 function showRandomPoem() {
   let randomPoem;
-  do{
+  do {
     randomPoem = poems[Math.floor(Math.random() * poems.length)];
-  }while (randomPoem === lastPoem);
-  lastPoem = randomPoem;
-  openModal(`<p>${randomPoem}</p>`);
+  } while (randomPoem === window.lastPoem);
+  window.lastPoem = randomPoem;
   
   const popupContent = `
     <div id="modal-content">
-    <p>${randomPoem}</p>
+      <p>${randomPoem}</p>
       <div class="navigation-buttons">
-        <button class="regenerate-btn" onclick="showRandomPoem()">↻</button>
+        <button class="regenerate-btn" onclick="showRandomPoem()">↻ New Poem</button>
       </div>
     </div>
   `;
   openModal(popupContent);
 }
 
-let lastComment = null;
 function showRandomComment() {
   let randomComment;
-  do{
+  do {
     randomComment = comments[Math.floor(Math.random() * comments.length)];
-  }while (randomComment === lastComment);
-  lastComment = randomComment;
+  } while (randomComment === window.lastComment);
+  window.lastComment = randomComment;
   
   const popupContent = `
     <div id="modal-content">
-    <p>${randomComment}</p>
+      <p>${randomComment}</p>
       <div class="navigation-buttons">
-      
-        <button class="regenerate-btn" onclick="showRandomComment()">↻</button>
+        <button class="regenerate-btn" onclick="showRandomComment()">↻ New Comment</button>
       </div>
     </div>
   `;
   openModal(popupContent);
 }
 
-function showLetter() {
-  openModal(`<p style="font-size: 12px;">${letter}</p>`);
+function generateDateIdea() {
+  let randomIndex;
+  do {
+    randomIndex = Math.floor(Math.random() * dateIdeas.length);
+  } while (randomIndex === window.lastIdeaIndex);
+  window.lastIdeaIndex = randomIndex;
+  const randomIdea = dateIdeas[randomIndex];
+  
+  const popupContent = `
+    <div id="modal-content">
+      <h3>Date Idea</h3>
+      <p>${randomIdea}</p>
+      <div class="navigation-buttons">
+        <button class="regenerate-btn" onclick="generateDateIdea()">↻ New Idea</button>
+      </div>
+    </div>
+  `;
+  openModal(popupContent);
+}
+
+function showRandomCatPicture() {
+  let randomCatPicture;
+  do {
+    randomCatPicture = catPictures[Math.floor(Math.random() * catPictures.length)];
+  } while (randomCatPicture === window.lastCatPicture);
+  window.lastCatPicture = randomCatPicture;
+  
+  const popupContent = `
+    <div id="modal-content">
+      <img src="${randomCatPicture}" alt="Cat Picture" style="width: 100%; height: auto; border-radius: 15px;">
+      <div class="navigation-buttons">
+        <button class="regenerate-btn" onclick="showRandomCatPicture()">↻ New Picture</button>
+      </div>
+    </div>
+  `;
+  openModal(popupContent);
+}
+
+// Functions to modify for handling the Previous/Next buttons visibility
+
+function showLoveStory() {
+  if (loveStoryIndex >= loveStoryPictures.length) {
+    loveStoryIndex = 0;
+  }
+  
+  const currentPicture = loveStoryPictures[loveStoryIndex];
+  
+  // Determine if previous/next buttons should be shown
+  const showPrevButton = loveStoryIndex > 0;
+  const showNextButton = loveStoryIndex < loveStoryPictures.length - 1;
+  
+  const popupContent = `
+    <div id="modal-content">
+      <div class="love-story-container">
+        <img src="${currentPicture.src}" alt="Love Story" style="width: 100%; height: auto; border-radius: 15px;">
+        <p class="love-story-caption">${currentPicture.caption}</p>
+      </div>
+      <div class="navigation-buttons">
+        ${showPrevButton ? '<button class="nav-btn" onclick="previousLoveStory()">← Previous</button>' : ''}
+        ${showNextButton ? '<button class="nav-btn" onclick="nextLoveStory()">Next →</button>' : ''}
+      </div>
+    </div>
+  `;
+  openModal(popupContent);
+}
+
+function nextLoveStory() {
+  slideDirection = "left";
+  if (loveStoryIndex < loveStoryPictures.length - 1) {
+    loveStoryIndex++;
+    animateLoveStoryTransition();
+  }
+}
+
+function previousLoveStory() {
+  slideDirection = "right";
+  if (loveStoryIndex > 0) {
+    loveStoryIndex--;
+    animateLoveStoryTransition();
+  }
+}
+
+function animateLoveStoryTransition() {
+  const container = document.querySelector('.love-story-container');
+  if (!container) return;
+  
+  container.classList.add(`slide-out-${slideDirection}`);
+  
+  setTimeout(() => {
+    const currentPicture = loveStoryPictures[loveStoryIndex];
+    container.innerHTML = `
+      <img src="${currentPicture.src}" alt="Love Story" style="width: 100%; height: auto; border-radius: 15px;">
+      <p class="love-story-caption">${currentPicture.caption}</p>
+    `;
+    
+    container.classList.remove(`slide-out-${slideDirection}`);
+    container.classList.add(`slide-in-${slideDirection}`);
+    
+    // Update the navigation buttons based on the current index
+    const navigationButtons = document.querySelector('.navigation-buttons');
+    const showPrevButton = loveStoryIndex > 0;
+    const showNextButton = loveStoryIndex < loveStoryPictures.length - 1;
+    
+    navigationButtons.innerHTML = `
+      ${showPrevButton ? '<button class="nav-btn" onclick="previousLoveStory()">← Previous</button>' : ''}
+      ${showNextButton ? '<button class="nav-btn" onclick="nextLoveStory()">Next →</button>' : ''}
+    `;
+    
+    setTimeout(() => {
+      container.classList.remove(`slide-in-${slideDirection}`);
+    }, 400);
+  }, 400);
+}
+
+// Starting the love story from the first image
+function startLoveStory() {
+  loveStoryIndex = 0;
+  showLoveStory();
+}
+
+function showCountdown() {
+  // Define the start date of the relationship
+  const startDate = new Date(2024, 3, 29); // April 28, 2023 (months are 0-indexed)
+  const currentDate = new Date();
+  const daysTogether = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24));
+
+  // Calculate years and remaining days together
+  const yearsTogether = Math.floor(daysTogether / 365);
+  const remainingDays = daysTogether % 365;
+
+  // Define special dates
+  const specialDates = [
+    { name: "Valentine's Day", date: "2025-02-14" },
+    { name: "Next Anniversary", date: "2025-04-29" },
+    { name: "Chris's Birthday", date: new Date("June 19, 2025") },
+    { name: "Sam's Birthday", date: new Date("October 18, 2025") }
+  ];
+
+  // Calculate upcoming special dates
+  const upcomingDates = specialDates.map(date => {
+    const nextDate = new Date(date.date);
+    if (nextDate < currentDate) {
+      nextDate.setFullYear(currentDate.getFullYear() + 1);
+    }
+
+    const daysUntil = Math.ceil((nextDate - currentDate) / (1000 * 60 * 60 * 24));
+    return {
+      name: date.name,
+      daysUntil: daysUntil
+    };
+  });
+
+  // Sort by closest date
+  upcomingDates.sort((a, b) => a.daysUntil - b.daysUntil);
+
+  // Generate HTML for special dates
+  let datesHTML = "";
+  upcomingDates.forEach(date => {
+    datesHTML += `<p>${date.name}: ${date.daysUntil} day${date.daysUntil !== 1 ? 's' : ''} away</p>`;
+  });
+
+  // Display the countdown in a modal
+  const popupContent = `
+    <div id="modal-content">
+      <h3>Our Love by the Numbers</h3>
+      <p>We've been together for ${yearsTogether} year${yearsTogether !== 1 ? 's' : ''} and ${remainingDays} day${remainingDays !== 1 ? 's' : ''}!</p>
+      <p>That's ${daysTogether} beautiful days of love.</p>
+      <h4>Upcoming Special Dates:</h4>
+      ${datesHTML}
+      <div class="heart-animation">❤️</div>
+    </div>
+  `;
+  openModal(popupContent);
 }
 function runFlowerAnimation() {
   const popupContent = document.getElementById('popupContent');
@@ -233,84 +561,41 @@ function runFlowerAnimation() {
   document.getElementById('popupModal').style.display = 'flex';
 }
 
-
-let lastCatPicture = null;
-function showRandomCatPicture() {
-  let randomCatPicture
-  do{
-    randomCatPicture = catPictures[Math.floor(Math.random() * catPictures.length)];
-  }while (randomCatPicture === lastCatPicture);
-  lastCatPicture = randomCatPicture;
-const popupContent = `
-    <div id="modal-content">
-    <img src="${randomCatPicture}" alt="Willie">
-      <div class="navigation-buttons">
-        <button class="regenerate-btn" onclick="showRandomCatPicture()">↻</button>
-      </div>
-    </div>
-  `;
-  openModal(popupContent);
-  
-}
-
-
-function updateLoveStoryModal() {
-  const storyPicture = loveStoryPictures[loveStoryIndex];
-  const prevButton = loveStoryIndex === 0 ? '' : `<button class="arrow-btn" onclick="prevLoveStory()">⇦ Previous</button>`;
-  const nextButton = loveStoryIndex === 12 ? '' : `<button class="arrow-btn" onclick="nextLoveStory()">⇨ Next</button>`;
-  const popupContent = `
-    <div id="storyContent" style="overflow: hidden; border-radius: 15px;">
-    <img src="${storyPicture.src}" alt="Love Story" style="width: 100%; height: auto; border-radius: 15px;">
-      <div id="captionArea">${storyPicture.caption}</div>
-      <div class="navigation-buttons">
-         ${prevButton}
-         ${nextButton}
-    </div>
-  </div>
-`;
-  openModal(popupContent);
-}
-
-function startLoveStory() {
-  loveStoryIndex = 0; 
-  updateLoveStoryModal();
-}
-
-function nextLoveStory() {
-  if (loveStoryIndex != 12){
-    loveStoryIndex = (loveStoryIndex + 1) % loveStoryPictures.length; 
-    updateLoveStoryModal();
-  }
-  
-}
-
-function prevLoveStory() {
-  if (loveStoryIndex != 0){
-    loveStoryIndex = (loveStoryIndex - 1 + loveStoryPictures.length) % loveStoryPictures.length; 
-    updateLoveStoryModal();
-  }
-}
-
-function closeModal() {
-  document.getElementById('popupModal').style.display = 'none';
-}
 function closeApp() {
-if (confirm("Are you sure you want to close the app?")) {
-  window.open('', '_self');
-  window.location.href = "about:blank";
-  window.close(); 
-}
+  const container = document.querySelector('.container');
+  container.classList.add('fade-out');
+  
+  setTimeout(() => {
+    window.close();
+    // Fallback if window.close() doesn't work
+    document.body.innerHTML = `
+      <div class="app-closed">
+        <h2>App Closed</h2>
+        <p>Thank you for using our Love App!</p>
+        <button onclick="location.reload()">Reopen App</button>
+      </div>
+    `;
+  }, 500);
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    if (!localStorage.getItem("valentinesAlertShown")) {
-        alert("Happy Valentine's Day, my love! ❤️ You're the best thing in my life! 😘");
-        localStorage.setItem("valentinesAlertShown", "true");
-    }
+// Add event listener to close modal when clicking outside
+window.addEventListener('click', function(event) {
+  const modal = document.getElementById('popupModal');
+  if (event.target === modal) {
+    closeModal();
+  }
+});
 
-    if (!localStorage.getItem("valentinesUpdateShown")) {
-        alert("💖 Valentine's Day Update 💖\n\n✨ 10 New Pictures Added 📸\n🎨 Background Updated 🌸\n📖 New Love Story (January Edition) 🥰\n💌 Valentine's Day Surprise 🎁\n\nHope you love the updates as much as I love you! 😘");
-        localStorage.setItem("valentinesUpdateShown", "true");
-    }
+// Add keyboard navigation
+document.addEventListener('keydown', function(event) {
+  if (!modalIsOpen) return;
+  
+  if (event.key === 'Escape') {
+    closeModal();
+  } else if (event.key === 'ArrowRight' && document.querySelector('.love-story-container')) {
+    nextLoveStory();
+  } else if (event.key === 'ArrowLeft' && document.querySelector('.love-story-container')) {
+    previousLoveStory();
+  }
 });
 
