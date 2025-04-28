@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   // Check for anniversary and show special message if it's today
   const today = new Date();
-  if (today.getDate() === 28 or today.getDate() ==29 && today.getMonth() === 3) { 
+  if (today.getDate() === 28 && today.getMonth() === 3) { 
     setTimeout(() => {
       const popupContent = `
         <div id="modal-content" class="anniversary-special">
