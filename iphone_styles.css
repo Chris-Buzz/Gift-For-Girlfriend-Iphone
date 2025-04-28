@@ -239,6 +239,7 @@ button:active {
   padding: 10px;
   font-size: 14px; /* Adjust font size for smaller text */
   line-height: 1.6; /* Improve readability with proper line spacing */
+  color: #800080;  
 }
 
 #popupContent::-webkit-scrollbar {
