@@ -227,7 +227,6 @@ let slideDirection = "right";
       openModal(popupContent);
     }, 300);
   }
-});
 
 function closeUpdateModal() {
   const updateModal = document.getElementById('updateModal');
